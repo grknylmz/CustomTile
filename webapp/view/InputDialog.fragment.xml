@@ -1,0 +1,8 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<Dialog id="inputDialog" title="Barcode Nummer (Simulation)">
+		<Input id="huInput" type="Text"/>
+		<beginButton>
+			<Button text="OK" press=".onCloseDialog"/>
+		</beginButton>
+	</Dialog>
+</core:FragmentDefinition>

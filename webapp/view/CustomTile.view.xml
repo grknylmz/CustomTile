@@ -1,0 +1,22 @@
+<mvc:View controllerName="view.CustomTile" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m"
+	xmlns:l="sap.ui.layout">
+	<l:VerticalLayout id="containerLayout">
+		<l:BlockLayout id="BlockLayout">
+			<l:BlockLayoutRow>
+				<l:BlockLayoutCell>
+					<Text text="Flaschenscan"/>
+				</l:BlockLayoutCell>
+			</l:BlockLayoutRow>
+			<l:BlockLayoutRow>
+				<l:BlockLayoutCell>
+					<Text id="huNumber" text=""/> 
+				</l:BlockLayoutCell>
+			</l:BlockLayoutRow>
+			<l:BlockLayoutRow>
+				<l:BlockLayoutCell>
+					<Button width="100%" text="Suche" press=".onSearch"/>
+				</l:BlockLayoutCell>
+			</l:BlockLayoutRow>
+		</l:BlockLayout>
+	</l:VerticalLayout>
+</mvc:View>
